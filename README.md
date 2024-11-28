@@ -20,17 +20,17 @@ Code Structure
 
 ->sigmoid_derivative(net): Calculates the derivative of the sigmoid function.
 
-Parameters:
+2. Parameters:
 ->Defines the number of training iterations (epochs) and the learning rate.
 
 ->Initializes weights and bias manually.
 
-Training Loop:
+3. Training Loop:
 ->Forward Propagation: Calculates the net output using inputs and weights.
 
 ->Error Calculation: Computes the difference between the actual output and the network's output.
 
 -<Backpropagation: Updates weights and bias by multiplying the error with the sigmoid derivative.
 
-Model Testing:
+4. Model Testing:
 ->The trained network is tested on the training data, and the results are displayed.
